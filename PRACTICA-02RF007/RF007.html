@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetTask - Eliminar Tareas</title> <!-- titulo -->
+</head>
+<body>
+
+    <!-- Encabezado semántico -->
+    <header>
+        <h1>PetTask - Gestión de Tareas</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mis Tareas</a></li>
+                <li><a href="#">Mi Mascota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Contenido principal semántico -->
+    <main>
+        <section>
+            <h2>Eliminar Tareas</h2>
+            <p>Selecciona la tarea que deseas eliminar. El sistema te pedirá confirmación antes de borrarla.</p>
+
+            <!-- Lista de tareas (estructura genérica lista para datos dinámicos) -->
+            <ul>
+                <li>
+                    <!-- Aquí irá dinámicamente el nombre de la materia y la tarea -->
+                    <strong>[Nombre de la Materia]:</strong> [Descripción de la tarea]
+                    <form action="#" method="post">
+                        <!-- Se recomienda usar un input hidden para enviar el ID de la tarea -->
+                        <input type="hidden" name="id_tarea" value="1">
+                        <button type="submit">Eliminar</button>
+                    </form>
+                </li>
+                <li>
+                    <strong>[Nombre de la Materia]:</strong> [Descripción de la tarea]
+                    <form action="#" method="post">
+                        <input type="hidden" name="id_tarea" value="2">
+                        <button type="submit">Eliminar</button>
+                    </form>
+                </li>
+                <li>
+                    <strong>[Nombre de la Materia]:</strong> [Descripción de la tarea]
+                    <form action="#" method="post">
+                        <input type="hidden" name="id_tarea" value="3">
+                        <button type="submit">Eliminar</button>
+                    </form>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- Pie de página semántico -->
+    <footer>
+        <p>PetTask &copy; 2026 - Proyecto de Ingeniería de Software</p>
+    </footer>
+
+</body>
+</html>
