@@ -1,25 +1,28 @@
-body {
+.caja {
     width: 300px;
     padding: 20px;
-    border: 5px solid rgb(187, 32, 3);
+    border: 5px solid rgb(107, 32, 3);
     margin: 25px;
     background-color: rgb(137, 163, 34);
 }
 
 h1 {
     color: rgb(205, 118, 203);
-    font-size: 60px;
-    font-family: 'MONTSEHRAT', sans-serif;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .noticias {
     color: rgb(126, 2, 2);
     font-size: 60px;
-    font-family: 'MONTSEHRAT', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
-#titulo1 {
-    color: rgb(39, 170, 18);
+#titulo {
+    color: rgb(39, 170, 10);
     font-size: 30px;
-    font-family: 'MONTSEHRAT', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
