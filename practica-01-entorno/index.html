@@ -2,14 +2,62 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 1 - Entorno Web</title>
-    <link rel="icon" href="data:,">
+    <title>TIID_04_01</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="titulo">¡Hola, mundo!</h1>
-    <p>Mi primer proyecto web configurado correctamente.</p>
+    <header>
+        <h1>Mi Sitio Web TIID 2026</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.upp.edu.mx/">Inicio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#registro">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="noticias">Noticias Principales</h2>
+            <article>
+                <h3 id="titulo1">Título del Artículo</h3>
+                <p>Contenido del artículo...</p>
+                <a href="/imagen/imagen.png">
+                    <img src="/imagen/imagen.png" alt="Imagen del artículo">
+                </a>
+                <a href="https://web.dev/static/html/image/hero-html_480.png">
+                    <img src="https://web.dev/static/html/image/hero-html_480.png" alt="Imagen hero de HTML">
+                </a>
+            </article>
+        </section>
+
+        <section>
+            <h2 class="noticias">Noticias Secundarias</h2>
+            <article>
+                <h3 id="titulo1">Título del Artículo</h3>
+                <p>Contenido del artículo...</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Enlaces de interés</h3>
+            <article>
+                <h3>PROMOCIONES</h3>
+                <p>Contenido del artículo...</p>
+                <a href="/imagen/imagen.png">
+                    <img src="/imagen/imagen.png" alt="Promoción 1">
+                </a>
+                <a href="https://web.dev/static/html/image/hero-html_480.png">
+                    <img src="https://web.dev/static/html/image/hero-html_480.png" alt="Promoción 2">
+                </a>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Todos los derechos reservados.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

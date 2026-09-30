@@ -1,16 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
-    text-align: center;
-    padding: 50px;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid rgb(187, 32, 3);
+    margin: 25px;
+    background-color: rgb(137, 163, 34);
 }
 
 h1 {
-    color: #2c3e50;
-    cursor: pointer;
+    color: rgb(205, 118, 203);
+    font-size: 60px;
+    font-family: 'MONTSEHRAT', sans-serif;
 }
 
-p {
-    color: #555;
-    font-size: 18px;
+.noticias {
+    color: rgb(126, 2, 2);
+    font-size: 60px;
+    font-family: 'MONTSEHRAT', sans-serif;
+}
+
+#titulo1 {
+    color: rgb(39, 170, 18);
+    font-size: 30px;
+    font-family: 'MONTSEHRAT', sans-serif;
 }

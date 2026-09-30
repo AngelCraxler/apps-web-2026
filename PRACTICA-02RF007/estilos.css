@@ -1,160 +1,275 @@
 :root {
-    --color-rosa: #FF8692;
-    --color-blanco-azulado: #E5EAF5;
-    --color-azul-claro: #92A5FD;
-    --color-azul: #5B7FFC;
-    --color-azul-oscuro: #1E1E50;
+
+    --color-fondo: #E5EAF5;
+
     --color-blanco: #FFFFFF;
+
+    --color-rosa: #FF6F82;
+
+    --color-azul-claro: #8FA3ED;
+
+    --color-azul: #557FFC;
+
+    --color-azul-oscuro: #1E1E50;
+
     --fuente-titulos: 'Questrial', 'Arial', sans-serif;
+
     --fuente-cuerpo: 'Onest', 'Helvetica', sans-serif;
+
 }
 
 body {
+
     font-family: var(--fuente-cuerpo);
-    background-color: var(--color-blanco-azulado);
+
+    background-color: var(--color-fondo);
+
     color: var(--color-azul-oscuro);
+
 }
 
 h1, h2, h3, h4, h5, .navbar-brand {
+
     font-family: var(--fuente-titulos);
+
     color: var(--color-azul-oscuro);
+
 }
 
 .texto-intro {
+
     color: var(--color-azul-oscuro);
+
     opacity: 0.8;
+
 }
 
 .texto-secundario {
+
     color: var(--color-azul-oscuro);
+
     opacity: 0.8;
+
 }
 
 .navbar-pettask {
+
     background-color: var(--color-azul);
+
     min-height: 106px;
+
 }
 
 .navbar-pettask .navbar-brand {
+
     color: var(--color-blanco) !important;
+
     font-size: 24px;
+
+    transition: none !important;
+
 }
 
 .navbar-pettask .nav-link {
+
     color: var(--color-blanco) !important;
+
     font-size: 16px;
+
     padding: 10px 15px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+
+    transition: none !important;
+
 }
 
 .navbar-pettask .nav-link:hover {
-    color: var(--color-blanco-azulado) !important;
+
+    color: var(--color-blanco) !important;
+
 }
 
 .btn-pettask-primary {
-    background-color: var(--color-azul);
-    border-color: var(--color-azul);
+
+    background-color: var(--color-azul-claro);
+
+    border-color: var(--color-azul-claro);
+
     color: var(--color-blanco);
+
     min-height: 45px;
+
     min-width: 45px;
+
     font-size: 14px;
+
     font-weight: 500;
+
     border-radius: 8px;
+
+    transition: none !important;
+
 }
 
 .btn-pettask-primary:hover {
-    background-color: var(--color-azul-oscuro);
-    border-color: var(--color-azul-oscuro);
+
+    background-color: var(--color-azul-claro);
+
+    border-color: var(--color-azul-claro);
+
     color: var(--color-blanco);
+
 }
 
 .btn-pettask-danger {
+
     background-color: var(--color-rosa);
+
     border-color: var(--color-rosa);
-    color: var(--color-azul-oscuro);
+
+    color: var(--color-blanco);
+
     min-height: 45px;
+
     min-width: 45px;
+
     font-size: 14px;
+
     font-weight: 600;
+
     border-radius: 8px;
+
+    transition: none !important;
+
 }
 
 .btn-pettask-danger:hover {
-    background-color: #e06b76;
-    border-color: #e06b76;
-    color: var(--color-azul-oscuro);
+
+    background-color: var(--color-rosa);
+
+    border-color: var(--color-rosa);
+
+    color: var(--color-blanco);
+
 }
 
 .form-control {
+
     min-height: 56px;
+
     padding: 16px;
+
     font-size: 16px;
+
     border-radius: 8px;
+
     border: 1px solid var(--color-azul-oscuro);
-    background-color: var(--color-blanco-azulado);
+
+    background-color: var(--color-blanco);
+
     color: var(--color-azul-oscuro);
+
     font-family: var(--fuente-cuerpo);
+
+    transition: none !important;
+
 }
 
 .form-control:focus {
+
     border-color: var(--color-azul);
-    box-shadow: 0 0 0 0.25rem rgba(91, 127, 252, 0.25);
-    background-color: var(--color-blanco-azulado);
+
+    box-shadow: 0 0 0 0.25rem rgba(85, 127, 252, 0.25);
+
+    background-color: var(--color-blanco);
+
     color: var(--color-azul-oscuro);
+
 }
 
 .form-control::placeholder {
+
     color: var(--color-azul-oscuro);
+
     opacity: 0.6;
+
 }
 
 .card-tarea {
-    border: none;
-    border-radius: 12px;
-    background-color: var(--color-blanco);
-    box-shadow: 0 4px 6px rgba(30, 30, 80, 0.1);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
 
-.card-tarea:hover {
-    box-shadow: 0 8px 16px rgba(30, 30, 80, 0.25);
-    transform: translateY(-3px);
+    border: none;
+
+    border-radius: 12px;
+
+    background-color: var(--color-blanco);
+
+    box-shadow: 0 4px 6px rgba(30, 30, 80, 0.1);
+
+    transition: none !important;
+
 }
 
 .card-tarea .card-body {
+
     padding: 24px;
+
 }
 
 .card-tarea .card-title {
+
     color: var(--color-azul-oscuro);
+
 }
 
 .card-tarea .card-text {
+
     color: var(--color-azul-oscuro);
+
     opacity: 0.9;
+
 }
 
 .card-filtro {
+
     border-radius: 12px;
+
     background-color: var(--color-blanco);
+
+    transition: none !important;
+
 }
 
 .alert-pettask {
+
     border-radius: 8px;
+
     padding: 12px 16px;
+
     font-size: 16px;
+
     border: none;
+
     background-color: var(--color-blanco);
+
     color: var(--color-azul-oscuro);
+
 }
 
 .footer-pettask {
+
     background-color: var(--color-azul-oscuro);
-    color: var(--color-blanco-azulado);
+
+    color: var(--color-blanco);
+
 }
 
 .footer-pettask p {
-    color: var(--color-blanco-azulado) !important;
+
+    color: var(--color-blanco) !important;
+
+}
+
+*:hover {
+
+    transition: none !important;
+
 }
