@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetTask - Mi Mascota</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilosRF008.css">
+</head>
+<body>
+
+    <div class="fondo-decorativo">
+        <div class="forma forma-1"></div>
+        <div class="forma forma-2"></div>
+        <div class="forma forma-3"></div>
+        <div class="forma forma-4"></div>
+        <div class="forma forma-5"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-pettask shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🐾 PetTask</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Mis Tareas</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Mi Mascota</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5 position-relative">
+
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h1 class="fw-bold titulo-principal">Mi Mascota Virtual</h1>
+                <p class="texto-intro">Cuida de tu mascota completando tareas. Mantenla feliz y con energía para que crezca.</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-lg-5">
+                <div class="card card-mascota h-100">
+                    <div class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                        <div class="mascota-placeholder">
+                            <div class="mascota-flotante">
+                                <span class="placeholder-texto">Mascota virtual</span>
+                                <span class="placeholder-subtexto">Próximamente</span>
+                            </div>
+                        </div>
+                        <h3 class="card-title fw-semibold mt-4 mb-2">Firulais</h3>
+                        <span class="badge-estado">Feliz</span>
+                        <p class="card-text texto-secundario mt-3">Tu mascota está contenta y con mucha energía. ¡Sigue completando tareas para mantenerla así!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-7">
+                <div class="card card-mascota h-100">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h3 class="card-title fw-semibold mb-0">Estado de la mascota</h3>
+                            <span class="badge-nivel">Nivel 5</span>
+                        </div>
+
+                        <div class="row text-center g-3">
+
+                            <div class="col-12 col-md-4">
+                                <div class="circulo-progreso" style="--porcentaje: 80;">
+                                    <div class="circulo-interno">
+                                        <span class="circulo-valor">80%</span>
+                                    </div>
+                                </div>
+                                <p class="circulo-etiqueta">Energía</p>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <div class="circulo-progreso circulo-rosa" style="--porcentaje: 90;">
+                                    <div class="circulo-interno">
+                                        <span class="circulo-valor">90%</span>
+                                    </div>
+                                </div>
+                                <p class="circulo-etiqueta">Felicidad</p>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <div class="circulo-progreso circulo-oscuro" style="--porcentaje: 30;">
+                                    <div class="circulo-interno">
+                                        <span class="circulo-valor">30%</span>
+                                    </div>
+                                </div>
+                                <p class="circulo-etiqueta">Hambre</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card card-mascota">
+                    <div class="card-body">
+                        <h3 class="card-title fw-semibold mb-4">Actividad semanal</h3>
+
+                        <div class="grafica">
+                            <div class="grafica-columna">
+                                <div class="grafica-barra" style="--altura: 40;"></div>
+                                <span class="grafica-dia">Lun</span>
+                            </div>
+                            <div class="grafica-columna">
+                                <div class="grafica-barra" style="--altura: 65;"></div>
+                                <span class="grafica-dia">Mar</span>
+                            </div>
+                            <div class="grafica-columna">
+                                <div class="grafica-barra" style="--altura: 50;"></div>
+                                <span class="grafica-dia">Mié</span>
+                            </div>
+                            <div class="grafica-columna">
+                                <div class="grafica-barra" style="--altura: 85;"></div>
+                                <span class="grafica-dia">Jue</span>
+                            </div>
+                            <div class="grafica-columna">
+                                <div class="grafica-barra" style="--altura: 70;"></div>
+                                <span class="grafica-dia">Vie</span>
+                            </div>
+                            <div class="grafica-columna">
+                                <div class="grafica-barra grafica-barra-rosa" style="--altura: 95;"></div>
+                                <span class="grafica-dia">Sáb</span>
+                            </div>
+                            <div class="grafica-columna">
+                                <div class="grafica-barra grafica-barra-rosa" style="--altura: 60;"></div>
+                                <span class="grafica-dia">Dom</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card card-acciones border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fw-semibold mb-3">Acciones disponibles</h5>
+                        <div class="row g-2">
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <button type="button" class="btn btn-pettask-accion w-100">Alimentar</button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <button type="button" class="btn btn-pettask-accion w-100">Jugar</button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <button type="button" class="btn btn-pettask-accion w-100">Descansar</button>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <button type="button" class="btn btn-pettask-accion w-100">Bañar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 g-4">
+            <div class="col-12 col-md-6">
+                <div class="card card-mascota h-100">
+                    <div class="card-body">
+                        <h4 class="card-title fw-semibold mb-3">Logros</h4>
+                        <ul class="lista-logros">
+                            <li>Primer día completado</li>
+                            <li>Racha de 7 días</li>
+                            <li>10 tareas completadas</li>
+                            <li>Mascota nivel 5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card card-mascota h-100">
+                    <div class="card-body">
+                        <h4 class="card-title fw-semibold mb-3">Resumen</h4>
+                        <div class="d-flex justify-content-between mt-4">
+                            <div class="dato-extra">
+                                <span class="dato-valor">12</span>
+                                <span class="dato-etiqueta">Tareas completadas</span>
+                            </div>
+                            <div class="dato-extra">
+                                <span class="dato-valor">7</span>
+                                <span class="dato-etiqueta">Días de racha</span>
+                            </div>
+                            <div class="dato-extra">
+                                <span class="dato-valor">4</span>
+                                <span class="dato-etiqueta">Logros</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer-pettask py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 small">PetTask &copy; 2026 - Proyecto de Ingeniería de Software</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
