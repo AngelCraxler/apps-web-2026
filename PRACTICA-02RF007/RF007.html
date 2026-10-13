@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
-    <!-- NAVBAR -->
+    <!-- BARRA DE NAVEGACIÓN -->
     <header class="pet-nav navbar navbar-expand-lg navbar-dark">
         <a class="pet-nav__brand" href="index.html">
-            <img src="img/logoNav.png" alt="Logotipo de PetTask" />
+            <span>PetTask</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú de navegación">
             <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
                 Recuerda que al eliminar una tarea, esta acción no se puede deshacer.
             </div>
 
-            <!-- INTERACCIÓN 4: Filtrado de elementos -->
+            <!-- Filtro de tareas -->
             <div class="filtro mb-4">
                 <label for="filtroMateria" class="form-label">Buscar tarea por materia</label>
                 <input type="text" class="form-control" id="filtroMateria" placeholder="Escribe el nombre de la materia..." />
@@ -84,7 +84,7 @@
                 </div>
             </div>
 
-            <!-- INTERACCIÓN 5: Agregar elementos dinámicamente -->
+            <!-- Agregar tarea -->
             <div class="agregar-tarea mt-4">
                 <h2 class="subtitulo">Agregar nueva tarea de ejemplo</h2>
                 <form id="formAgregarTarea" class="formulario-agregar">
@@ -100,7 +100,7 @@
                 </form>
             </div>
 
-            <!-- INTERACCIÓN 6: Cambio de tema -->
+            <!-- Cambio de tema -->
             <div class="cambio-tema mt-4">
                 <label class="form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="switchTema" />
@@ -115,7 +115,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- INTERACCIÓN 2: Modal con información dinámica -->
+    <!-- Modal de confirmación -->
     <div class="modal fade" id="confirmarEliminacion" tabindex="-1" aria-labelledby="tituloConfirmacion" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -134,7 +134,7 @@
         </div>
     </div>
 
-    <!-- INTERACCIÓN 3: Toast de notificación -->
+    <!-- Toast de notificación -->
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div id="toastNotificacion" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="d-flex">
